@@ -22,4 +22,4 @@ cat <<EOF > /etc/xray/config.json
 	}]
 }
 EOF
-/usr/bin/xray run --config=/etc/xray/config.json
+/usr/local/bin/xray run --config=/etc/xray/config.json
